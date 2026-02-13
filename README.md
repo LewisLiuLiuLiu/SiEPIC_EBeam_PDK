@@ -4,19 +4,14 @@
 ![forks](https://img.shields.io/github/forks/SiEPIC/SiEPIC_EBeam_PDK)
 ![Stars](https://img.shields.io/github/stars/SiEPIC/SiEPIC_EBeam_PDK)
 
-```diff
-::ATTENTION::
--  Due to the changes in ANT's EBL process, the coupling angles for *ebeam_gc_te1550* and *ebeam_gc_tm1550* components may be impacted. 
--  There is no change in the coupling angles when fabricating the components with UW's EBL process. 
-```
-
 # SiEPIC_EBeam_PDK
 
-- <a href="http://www.siepic.ubc.ca">SiEPIC</a> EBeam PDK, Library - for silicon photonics layout, design, verification and circuit simulation
-- by <a href="https://ca.linkedin.com/in/chrostowski">Lukas Chrostowski</a> (<a href="http://github.com/lukasc-ubc">lukasc-ubc</a>), (c) 2015-2025, with contributions by: <a href="https://ca.linkedin.com/in/zeqin-lu-13a52394">Zeqin Lu</a>, <a href="https://uk.linkedin.com/in/jaspreet-jhoja-00a56b64">Jaspreet Jhoja</a>, <a href="https://ca.linkedin.com/in/121comeon">Xu Wang</a>, <a href="https://ca.linkedin.com/in/jonas-flückiger-92a4831">Jonas Flueckiger</a>, <a href="https://www.linkedin.com/in/brett-poulsen-7bb7b449">Brett Poulsen</a> (<a href="https://github.com/bpoulse">bpoulse</a>).
-- Package in KLayout, klayout.de (version 0.28 +)
-- Instruction on design, layout, fabrication, test, data analysis for silicon photonics provided in the edX course: <a href="http://edx.org/course/silicon-photonics-design-fabrication-ubcx-phot1x">Silicon Photonics Design, Fabrication and Data Analysis</a> and textbook <a href="http://www.cambridge.org/ca/academic/subjects/engineering/electronic-optoelectronic-devices-and-nanotechnology/silicon-photonics-design-devices-systems">Silicon Photonics Design: From Devices to Systems</a> by Lukas Chrostowski and Michael Hochberg.
-- Fabrication runs via Electron Beam Lithography are available, including <a href="https://www.linkedin.com/pulse/openebl-fabrication-test-passive-silicon-photonic-lukas-chrostowski">openEBL</a> fabrication, and Applied Nanotools <a href="http://www.appliednt.com/nanosoi/">NanoSOI</a>.
+- <a href="http://www.siepic.ubc.ca">SiEPIC</a> EBeam PDK, Library - for silicon photonics layout, design, verification and circuit simulation. This PDK can be used directly for foundry submission, or forked and customized for different purposes (e.g., different thicknesses, different materials).
+- by <a href="https://ca.linkedin.com/in/chrostowski">Lukas Chrostowski</a> (<a href="http://github.com/lukasc-ubc">lukasc-ubc</a>), (c) 2015-2025, with contributions by: <a href="https://ca.linkedin.com/in/zeqin-lu-13a52394">Zeqin Lu</a>, <a href="https://uk.linkedin.com/in/jaspreet-jhoja-00a56b64">Jaspreet Jhoja</a>, <a href="https://ca.linkedin.com/in/121comeon">Xu Wang</a>, <a href="https://ca.linkedin.com/in/jonas-flückiger-92a4831">Jonas Flueckiger</a>, <a href="https://www.linkedin.com/in/brett-poulsen-7bb7b449">Brett Poulsen</a> (<a href="https://github.com/bpoulse">bpoulse</a>), and many others.
+- Package in KLayout, klayout.de (version 0.29 +)
+- Instruction on design, layout, fabrication, test, data analysis for silicon photonics provided in the edX course: <a href="http://edx.org/course/silicon-photonics-design-fabrication-ubcx-phot1x">Silicon Photonics Design, Fabrication and Data Analysis</a>
+- Textbook <a href="http://www.cambridge.org/ca/academic/subjects/engineering/electronic-optoelectronic-devices-and-nanotechnology/silicon-photonics-design-devices-systems">Silicon Photonics Design: From Devices to Systems</a> by Lukas Chrostowski and Michael Hochberg.
+- Fabrication runs via Electron Beam Lithography are available, including <a href="https://siepic.ca/openebl/">openEBL</a> fabrication, and Applied Nanotools <a href="http://www.appliednt.com/nanosoi/">NanoSOI</a>.  The openEBL runs include measurements, where data is provided ([see this repository for example](https://github.com/SiEPIC/openEBL-2025-10)).
 - Citing this work:  Lukas Chrostowski, Zeqin Lu, Jonas Flueckiger, Xu Wang, Jackson Klein, Amy Liu, Jaspreet Jhoja, James Pond,
 "<a href="http://mina.ubc.ca/ref_design-and-simulation-sili">Design and simulation of silicon photonic schematics and layouts</a>," Proc. SPIE 9891, Silicon Photonics and Photonic Integrated Circuits V, 989114 (May 13, 2016); doi:10.1117/12.2230376.
 
